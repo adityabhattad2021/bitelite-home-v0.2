@@ -26,7 +26,7 @@ function Footer() {
                                 e.preventDefault();
                                 router.push('/about-us');
                             }}
-                        >Home</a>
+                        >About Us</a>
                     </p>
                 </div>
             </div>
