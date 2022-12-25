@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import classes from "./featurePoint.module.css";
+import classes from "./FeaturePoint.module.css";
 
 function FeaturePoint({ image, content, index }) {
 	const [width, setWidth] = useState(0);
