@@ -34,9 +34,12 @@
 .icons > .social_icon{
     font-size: 30px;
     color: white;
+    transition: all 0.1s ease-in-out;
+    margin: 3px;
 }
 
 .icons > .social_icon:hover{
-    transform: scale(1.1);
+    transform: scale(1.15);
     cursor: pointer;
+    opacity: 0.5;
 }

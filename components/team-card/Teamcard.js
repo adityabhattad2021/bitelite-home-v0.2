@@ -17,7 +17,7 @@ function Teamcard({ name, linkedin, image,github }) {
                     {name}
                 </p>
 
-                <div className={classes.member_name}>
+                <div className={classes.icons}>
                     {
                         linkedin && <IoLogoLinkedin className={classes.social_icon} onClick={() => window.open(linkedin, "_blank")} />
                     }
